@@ -3,8 +3,16 @@ body {
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 0.15em;
     background-color: #efefef;
+    text-align: center;
 }
 
+@media only screen and (max-device-width: 480px), only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5){
+    .Container {
+        width: 90%;
+        min-width: 480px;
+        margin: auto;
+    }
+    
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 250%;
